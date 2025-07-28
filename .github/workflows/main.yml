@@ -1,0 +1,17 @@
+name: zesshan ahmad
+
+on:
+  push:
+    branches: [Main]
+
+
+Jobs: 
+  demo: 
+    runs-on: ubuntu-latest
+
+
+steps:
+  -name: Sea
+  run: echo"don"
+  
+   
