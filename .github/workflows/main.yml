@@ -5,13 +5,13 @@ on:
     branches: [Main]
 
 
-Jobs: 
-  demo: 
-    runs-on: ubuntu-latest
+jobs:
+      demo:
+            runs-on: ubuntu-latest
 
 
 steps:
-  -name: Sea
-  run: echo"don"
+   - name: Sea
+    run: echo"don"
   
    
